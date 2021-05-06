@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    background-color: black;
+    height: auto;
+    width: auto;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+#dataApod {
+    background-color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 7px;
+    padding: 4px 15px 4px 15px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.cabeca {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+.cabeca2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    color: whitesmoke;
+}
+
+#digite {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.esq {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 30px;
+}
+
+#data {
+    border-radius: 9px;
+}
+
+#botao {
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 30px;
+    border-radius: 4px;
+    background-color: black;
+    margin-top: 8px;
+    font-weight: bold;
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin:50px 50px;
+}
+
+#conteudo {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+#conteudo2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:16px;
+}
+
+#imagem {
+    width: 90%;
+}
+
+#titulo {
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;  
+}
+
+p {
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    size: 80%;
+}
+
+.base{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    text-align: center;
+    color: whitesmoke;
+    width: 100%;
+    bottom: 0px
+}
